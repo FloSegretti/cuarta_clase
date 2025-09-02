@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #E4A1DF;
+  color: #4C0529; 
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+a{ 
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+a[href$=".pdf"]{color: pink;
+}
+
+ a:hover{
+  color: #D1B9EB;
+  text-decoration: underline;
+transition: all ease 0.s;}
+
+a:hover:after{
+  content:" ❤️";
+}
+
+h1{
+  font-size: calc(3rem + 5vw);
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem);
+      padding: 2rem;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.ajuste{
+  font-size: 120%;
+
+}
+/* 
+canvas {
+  display: block;
+}
+*/
